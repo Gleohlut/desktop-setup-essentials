@@ -39,6 +39,7 @@ window#waybar {
 #memory,
 #temperature,
 #network,
+#battery,
 #pulseaudio {
     background: #1e1e2e;
     padding: 0px 10px;
