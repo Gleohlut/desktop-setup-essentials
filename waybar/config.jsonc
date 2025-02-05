@@ -1,11 +1,11 @@
 {
     "layer": "top",
     "output": "eDP-1",
-    "modules-left": ["hyprland/workspaces", "network"],
+    "modules-left": ["hyprland/workspaces", "cpu", "memory", "pulseaudio"],
     "modules-center": ["hyprland/window"],
-    "modules-right": ["pulseaudio", "backlight", "cpu", "memory", "temperature", "battery", "power-profiles-daemon", "tray", "clock"],
+    "modules-right": ["backlight", "temperature", "battery", "network", "power-profiles-daemon", "tray", "clock"],
 
-    "hyprland/workspaces": {
+"hyprland/workspaces": {
 	  "format": "{name}: {icon}",
 	  "format-icons": {
 		"1": "  ",
@@ -13,7 +13,8 @@
 		"3": "  ",
 		"active": "  ",
 		"default": "  "
-	                  }
+	  },
+    "persistent-workspaces": {"*": 4}
     },
 
     "hyprland/window": {
