@@ -1,6 +1,6 @@
 {
     "layer": "top",
-    "output": "eDP-1",
+    "output": "DP-1",
     "modules-left": ["cpu", "memory", "wireplumber"],
     "modules-center": ["hyprland/workspaces"],
     "modules-right": ["backlight", "temperature", "battery", "network", "power-profiles-daemon", "tray", "clock"],
@@ -59,14 +59,14 @@
 
 "temperature": {
     "thermal-zone": 0,
-    // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+    "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
     "critical-threshold": 80,
     "format-critical": "{temperatureC}°C  ",
     "format": "{temperatureC}°C  "
 },
 
 "network": {
-    "interface": "wlp5s0",
+    "interface": "enp6s0",
     "format": "{ifname}",
     "format-wifi": "{essid} ({signalStrength}%) ",
     "format-ethernet": "󰊗",
