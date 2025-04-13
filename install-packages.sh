@@ -55,6 +55,7 @@ packages=(
   yazi
   thunar
   udiskie
+  syncthing
 
   # Gaming
   steam
