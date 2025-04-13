@@ -59,6 +59,9 @@ packages=(
   # Gaming
   steam
   lutris
+
+  # Browser
+  firefox
   )
 
 for package in ${packages[@]}; do
