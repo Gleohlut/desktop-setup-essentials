@@ -57,10 +57,6 @@ packages=(
   udiskie
   syncthing
 
-  # Gaming
-  steam
-  lutris
-
   # Browser
   firefox
   )
