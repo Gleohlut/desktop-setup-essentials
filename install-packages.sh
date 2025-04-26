@@ -17,9 +17,6 @@ packages=(
 
   # Fonts
   otf-font-awesome
-  ttf-font-awesome
-  ttf-jetbrains-mono
-  ttf-jetbrains-mono-nerd
   noto-fonts
   noto-fonts-cjk
   noto-fonts-extra
@@ -46,9 +43,7 @@ packages=(
 
   # Printing
   cups
-  sane
   hplip
-  qt5
   python-pyqt5
 
   # File system
@@ -57,8 +52,8 @@ packages=(
   udiskie
   syncthing
 
-  # Browser
-  firefox
+  # Firewall
+  ufw
   )
 
 for package in ${packages[@]}; do
