@@ -34,6 +34,7 @@ packages=(
   xdg-desktop-portal-hyprland
   qt5-wayland
   qt6-wayland
+  hyprland
 
   # System stuff
   power-profiles-daemon
