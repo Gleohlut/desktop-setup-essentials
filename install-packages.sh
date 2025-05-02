@@ -41,6 +41,7 @@ packages=(
   brightnessctl
   uwsm
   flatpak
+  network-manager-applet
 
   # Printing
   cups
