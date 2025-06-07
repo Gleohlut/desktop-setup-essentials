@@ -1,9 +1,9 @@
 {
     "layer": "top",
-    "output": "DP-1",
-    "modules-left": ["cpu", "memory", "wireplumber"],
+    "output": "eDP-1",
+    "modules-left": ["cpu", "memory", "wireplumber", "mpd"],
     "modules-center": ["hyprland/workspaces"],
-    "modules-right": ["backlight", "temperature", "battery", "network", "power-profiles-daemon", "tray", "clock"],
+    "modules-right": ["backlight", "temperature", "battery", "bluetooth", "network", "power-profiles-daemon", "tray", "clock"],
 
 "hyprland/workspaces": {
 	  "format": "{icon}",
@@ -19,6 +19,31 @@
     "format-muted": "",
     "on-click": "helvum",
     "format-icons": ["", "", ""]
+},
+"mpd": {
+    "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {album} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S}) ",
+    "format-disconnected": "Disconnected ",
+    "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped ",
+    "interval": 10,
+    "consume-icons": {
+        "on": " " // Icon shows only when "consume" is on
+    },
+    "random-icons": {
+        "off": "<span color=\"#f53c3c\"></span> ", // Icon grayed out when "random" is off
+        "on": " "
+    },
+    "repeat-icons": {
+        "on": " "
+    },
+    "single-icons": {
+        "on": "1 "
+    },
+    "state-icons": {
+        "paused": "",
+        "playing": ""
+    },
+    "tooltip-format": "MPD (connected)",
+    "tooltip-format-disconnected": "MPD (disconnected)"
 },
 //"pulseaudio": {
 //        // "scroll-step": 1, // %, can be a float
@@ -66,7 +91,7 @@
 },
 
 "network": {
-    "interface": "enp6s0",
+    "interface": "wlp5s0",
     "format": "{ifname}",
     "format-wifi": "{essid} ({signalStrength}%) ",
     "format-ethernet": "󰊗",
@@ -87,6 +112,17 @@
     "format-icons": ["", "", "", "", ""],
     "max-length": 10,
     "interval": 10
+},
+
+"bluetooth": {
+	"format": " {status}",
+	"format-connected": " {device_alias}",
+	"format-connected-battery": " {device_alias} {device_battery_percentage}%",
+	// "format-device-preference": [ "device1", "device2" ], // preference list deciding the displayed device
+	"tooltip-format": "{controller_alias}\t{controller_address}\n\n{num_connections} connected",
+	"tooltip-format-connected": "{controller_alias}\t{controller_address}\n\n{num_connections} connected\n\n{device_enumerate}",
+	"tooltip-format-enumerate-connected": "{device_alias}\t{device_address}",
+	"tooltip-format-enumerate-connected-battery": "{device_alias}\t{device_address}\t{device_battery_percentage}%"
 },
 
 "power-profiles-daemon": {
