@@ -25,21 +25,12 @@ packages=(
   # WM stuff
   waybar
   swaync
-  hyprpaper
-  hyprlock
-  kitty
-  rofi
-  hyprpolkitagent
-  xdg-desktop-portal-gtk
-  xdg-desktop-portal-hyprland
-  qt5-wayland
-  qt6-wayland
-  hyprland
+  swaybg
+  fuzzel
+  polkit-gnome
 
   # System stuff
-  power-profiles-daemon
   brightnessctl
-  uwsm
   flatpak
   network-manager-applet
 
@@ -50,7 +41,6 @@ packages=(
 
   # File system
   yazi
-  thunar
   udiskie
   syncthing
 
