@@ -6,7 +6,6 @@ packages=(
   pipewire-alsa
   pipewire-pulse
   wireplumber
-  helvum
   pavucontrol
 
   # Clipboard and screenshots
@@ -28,6 +27,9 @@ packages=(
   swaybg
   fuzzel
   polkit-gnome
+  xdg-desktop-portal-gnome
+  xdg-desktop-portal-gtk
+  niri
 
   # System stuff
   brightnessctl
