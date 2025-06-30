@@ -12,7 +12,7 @@ packages=(
   wl-clipboard
   grim
   slurp
-  swappy
+  libnotify
 
   # Fonts
   otf-font-awesome
@@ -20,16 +20,19 @@ packages=(
   noto-fonts-cjk
   noto-fonts-extra
   noto-fonts-emoji
+  ttf-ibm-plex
 
   # WM stuff
   waybar
   swaync
-  swaybg
+  hyprpaper
   fuzzel
-  polkit-gnome
-  xdg-desktop-portal-gnome
+  hyprpolkitagent
+  xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
-  niri
+  hyprland
+  qt5-wayland
+  qt6-wayland
 
   # System stuff
   brightnessctl
