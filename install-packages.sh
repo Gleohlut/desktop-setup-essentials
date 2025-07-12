@@ -1,6 +1,9 @@
 #!/bin/bash
 
 packages=(
+  # Terminal
+  alacritty
+  
   # Sound
   pipewire
   pipewire-alsa
@@ -14,6 +17,13 @@ packages=(
   slurp
   libnotify
 
+  # Bluetooth
+  bluez
+  blueman
+  
+  # Look and feel
+  nwg-look
+  
   # Fonts
   otf-font-awesome
   noto-fonts
