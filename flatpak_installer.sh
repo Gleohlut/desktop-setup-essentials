@@ -19,10 +19,8 @@ applications=(
     "org.videolan.VLC" # VLC
     "org.libreoffice.LibreOffice" # Libre Office
     "com.discordapp.Discord" # Discord
-    "com.heroicgameslauncher.hgl" # Heroic Games
     "md.obsidian.Obsidian" # Obsidian
     "org.qbittorrent.qBittorrent" # Torrent
-    "com.valvesoftware.Steam" # Steam
     "com.spotify.Client" # Spotify
 )
 
