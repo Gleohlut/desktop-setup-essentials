@@ -36,6 +36,7 @@ packages=(
   waybar
   swaync
   hyprpaper
+  hyprlock
   fuzzel
   hyprpolkitagent
   xdg-desktop-portal-hyprland
@@ -46,6 +47,7 @@ packages=(
 
   # System stuff
   brightnessctl
+  rustup
   flatpak
   network-manager-applet
 
