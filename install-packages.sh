@@ -31,17 +31,18 @@ packages=(
   noto-fonts-extra
   noto-fonts-emoji
   ttf-ibm-plex
+  nodejs-material-design-icons
 
   # WM stuff
   waybar
+  fuzzel
   swaync
+  hyprland
   hyprpaper
   hyprlock
-  fuzzel
   hyprpolkitagent
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
-  hyprland
   qt5-wayland
   qt6-wayland
 
