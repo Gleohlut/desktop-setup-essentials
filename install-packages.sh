@@ -3,6 +3,7 @@
 packages=(
   # Terminal
   alacritty
+  wezterm
   
   # Sound
   pipewire
@@ -26,14 +27,11 @@ packages=(
   
   # Fonts
   otf-font-awesome
-  noto-fonts
-  noto-fonts-cjk
-  noto-fonts-extra
-  noto-fonts-emoji
   ttf-ibm-plex
   nodejs-material-design-icons
 
   # WM stuff
+  uwsm
   waybar
   fuzzel
   swaync
@@ -54,8 +52,6 @@ packages=(
 
   # Printing
   cups
-  hplip
-  python-pyqt5
 
   # File system
   yazi
