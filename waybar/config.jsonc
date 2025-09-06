@@ -1,17 +1,26 @@
 {
     "layer": "top",
     "output": "eDP-1",
-    "modules-left": ["cpu", "memory", "wireplumber"],
-    "modules-center": ["hyprland/workspaces"],
+    "modules-left": ["hyprland/workspaces", "cpu", "memory", "disk", "wireplumber"],
+    "modules-center": [],
     "modules-right": ["temperature", "network", "tray", "battery", "clock"],
 
 "hyprland/workspaces": {
-	  "format": "{icon}",
+	  "format": "{name}",
 	  "format-icons": {
 		"active": "",
 		"default": ""
 	  },
-    "persistent-workspaces": {"*": 4}
+    "persistent-workspaces": {
+	    "eDP-1": [1, 2, 3, 4, 5, 6, 7, 8, 9]
+    }
+},
+
+"disk": {
+	"interval": 60,
+	"unit": "GB",
+	"path": "/",
+	"format": "DSK {free}/{total}",
 },
 
 "wireplumber": {
@@ -20,35 +29,16 @@
     "on-click": "pavucontrol",
     "format-icons": ["", "", ""]
 },
-//"pulseaudio": {
-//        // "scroll-step": 1, // %, can be a float
-//        "format": "{volume}% {icon} {format_source}",
-//        "format-bluetooth": "{volume}% {icon} {format_source}",
-//        "format-bluetooth-muted": " {icon} {format_source}",
-//        "format-muted": " {format_source}",
-//        "format-source": "{volume}% ",
-//        "format-source-muted": "",
-//        "format-icons": {
-//            "headphone": "",
-//            "hands-free": "",
-//            "headset": "",
-//            "phone": "",
-//            "portable": "",
-//            "car": "",
-//            "default": ["", "", ""]
-//        },
-//        "on-click": "pavucontrol"
-//    },
 
 "cpu": {
     "interval": 10,
-    "format": " {usage}%",
+    "format": "CPU {usage}%",
     "max-length": 10
 },
 
 "memory": {
     "interval": 10,
-    "format": " {used:0.1f}G/{total:0.1f}G"
+    "format": "MEM {used:0.1f}G/{total:0.1f}G"
 },
 
 "temperature": {
@@ -64,7 +54,7 @@
     "format": "{ifname}",
     "format-wifi": "{essid} ({signalStrength}%) ",
     "format-ethernet": "󰊗",
-    "format-disconnected": "DOWN", //An empty format will hide the module.
+    "format-disconnected": "OFFLINE",
     "max-length": 50
 },
 
