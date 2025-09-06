@@ -2,7 +2,6 @@
 
 packages=(
   # Terminal
-  alacritty
   wezterm
   
   # Sound
@@ -22,7 +21,7 @@ packages=(
   bluez
   blueman
   
-  # Look and feel
+  # Look and feel (GTK)
   nwg-look
   
   # Fonts
@@ -51,7 +50,7 @@ packages=(
   network-manager-applet
 
   # Printing
-  cups
+  cups cups-filters
 
   # File system
   yazi
