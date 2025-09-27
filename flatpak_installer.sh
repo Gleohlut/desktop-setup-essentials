@@ -13,7 +13,6 @@ flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flath
 # Add or remove applications as needed
 applications=(
     "com.github.tchx84.Flatseal" # Flatseal. Permissions.
-    "org.mozilla.firefox" # Firefox
     "com.brave.Browser" # Brave
     "app.zen_browser.zen" # Zen
     "org.videolan.VLC" # VLC
@@ -21,7 +20,6 @@ applications=(
     "com.discordapp.Discord" # Discord
     "md.obsidian.Obsidian" # Obsidian
     "org.qbittorrent.qBittorrent" # Torrent
-    "com.spotify.Client" # Spotify
 )
 
 # Install all applications without prompts
