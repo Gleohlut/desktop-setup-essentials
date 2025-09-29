@@ -32,11 +32,12 @@ packages=(
   # WM stuff
   uwsm
   waybar
-  fuzzel
+  rofi
   swaync
   hyprland
   hyprpaper
   hyprlock
+  hyprshot
   hyprpolkitagent
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
@@ -48,7 +49,10 @@ packages=(
   rustup
   flatpak
   network-manager-applet
-
+  
+  # Image viewer
+  feh
+  
   # Printing
   cups cups-filters
 
