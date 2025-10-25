@@ -1,6 +1,12 @@
 #!/bin/bash
 
 packages=(
+  # Shell
+  zsh
+  zsh-completions
+  zsh-autosuggestions
+  zsh-syntax-highlighting
+  fzf
   # Terminal
   wezterm
   
