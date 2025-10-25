@@ -7,6 +7,9 @@ packages=(
   zsh-autosuggestions
   zsh-syntax-highlighting
   fzf
+
+  # Neovim
+  npm python-pip python-pynvim luajit luarocks
   # Terminal
   wezterm
   
