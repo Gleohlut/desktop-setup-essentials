@@ -13,7 +13,6 @@ flatpak remote-add --if-not-exists --user flathub https://flathub.org/repo/flath
 # Add or remove applications as needed
 applications=(
     "com.github.tchx84.Flatseal" # Flatseal. Permissions.
-    "com.brave.Browser" # Brave
     "app.zen_browser.zen" # Zen
     "org.videolan.VLC" # VLC
     "org.libreoffice.LibreOffice" # Libre Office
