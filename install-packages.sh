@@ -42,16 +42,7 @@ packages=(
   sddm
   uwsm
   waybar
-  rofi
-  swaync
-  hyprland
-  hyprpaper
-  hyprlock
-  hyprpolkitagent
-  xdg-desktop-portal-hyprland
-  xdg-desktop-portal-gtk
-  qt5-wayland
-  qt6-wayland
+  rofi swaync hyprland hyprpaper hyprlock hyprpolkitagent xdg-desktop-portal-hyprland xdg-desktop-portal-gtk qt5-wayland qt6-wayland
 
   # System stuff
   brightnessctl
