@@ -39,6 +39,7 @@ packages=(
   nodejs-material-design-icons
 
   # WM stuff
+  sddm
   uwsm
   waybar
   rofi
