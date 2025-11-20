@@ -47,7 +47,6 @@ packages=(
   hyprland
   hyprpaper
   hyprlock
-  hyprshot
   hyprpolkitagent
   xdg-desktop-portal-hyprland
   xdg-desktop-portal-gtk
